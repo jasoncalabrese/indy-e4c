@@ -3,39 +3,144 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.41
+      "voltage": 1.49
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-05-02T13:58:12.000Z", 
+      "timestamp": "2017-05-03T04:22:23.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 84.175, 
-    "clock": "2017-05-02T06:58:17-07:00"
+    "reservoir": 68.5, 
+    "clock": "2017-05-02T21:22:29-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 102, 
+      "bg": 79, 
       "temp": "absolute", 
-      "snoozeBG": 94, 
-      "timestamp": "2017-05-02T13:59:44.000Z", 
-      "rate": 0.575, 
-      "reason": "COB: 0, Dev: -11, BGI: 0.1, ISF: 101, Target: 80; Eventual BG 94 > 80 but Min. Delta -1.79 < Exp. Delta -0.7; setting current basal of 0.575 as temp", 
-      "COB": 0, 
-      "eventualBG": 94, 
-      "duration": 30, 
-      "tick": "+1", 
-      "IOB": -0.033
+      "snoozeBG": 90, 
+      "timestamp": "2017-05-03T04:24:09.000Z", 
+      "predBGs": {
+        "COB": [
+          79, 
+          80, 
+          80, 
+          80, 
+          78, 
+          76, 
+          72, 
+          69, 
+          66, 
+          63, 
+          60, 
+          59, 
+          57, 
+          56, 
+          55, 
+          54, 
+          54, 
+          54, 
+          55, 
+          56, 
+          57, 
+          59, 
+          61, 
+          64, 
+          67, 
+          71, 
+          75, 
+          80, 
+          84, 
+          89, 
+          93, 
+          97, 
+          102, 
+          106, 
+          110, 
+          114, 
+          118, 
+          122, 
+          125, 
+          129, 
+          133, 
+          136, 
+          140
+        ], 
+        "aCOB": [
+          79, 
+          84, 
+          88, 
+          91, 
+          93, 
+          94, 
+          94, 
+          94, 
+          95, 
+          95, 
+          96, 
+          97, 
+          98, 
+          99, 
+          101, 
+          103, 
+          105, 
+          108, 
+          111, 
+          114, 
+          117, 
+          121, 
+          125, 
+          130, 
+          134, 
+          140, 
+          145, 
+          151, 
+          157, 
+          162, 
+          168, 
+          173, 
+          178, 
+          183, 
+          187, 
+          192, 
+          196, 
+          200, 
+          204, 
+          208, 
+          211, 
+          215, 
+          218
+        ], 
+        "IOB": [
+          79, 
+          80, 
+          79, 
+          77, 
+          74, 
+          69, 
+          63, 
+          56, 
+          50, 
+          43, 
+          39, 
+          39, 
+          39
+        ]
+      }, 
+      "reason": "COB: 33, Dev: 35, BGI: -4.7, ISF: 102, Target: 80; Eventual BG 140 >= 80, temp 1.2<1.4U/hr, but 28m left and 1.2 ~ req 1.4U/hr: no action required", 
+      "COB": 33, 
+      "eventualBG": 140, 
+      "tick": "+4", 
+      "IOB": 1.291
     }, 
     "iob": {
-      "netbasalinsulin": 0, 
-      "timestamp": "2017-05-02T13:58:17.000Z", 
-      "activity": -0.0002, 
-      "basaliob": -0.033, 
-      "hightempinsulin": 0.4, 
-      "bolussnooze": 0, 
-      "iob": -0.033
+      "netbasalinsulin": -0.85, 
+      "timestamp": "2017-05-03T04:22:29.000Z", 
+      "activity": 0.0092, 
+      "basaliob": -0.399, 
+      "hightempinsulin": 0.05, 
+      "bolussnooze": 0.707, 
+      "iob": 1.291
     }, 
     "enacted": {
       "requested": {
@@ -47,25 +152,6 @@
       "temp": "absolute", 
       "snoozeBG": 94, 
       "timestamp": "2017-05-02T14:00:19.000Z", 
-      "predBGs": {
-        "IOB": [
-          102, 
-          100, 
-          99, 
-          98, 
-          96, 
-          96, 
-          95, 
-          94, 
-          94, 
-          94, 
-          94, 
-          94, 
-          94, 
-          94, 
-          95
-        ]
-      }, 
       "reason": "COB: 0, Dev: -11, BGI: 0.1, ISF: 101, Target: 80; Eventual BG 94 > 80 but Min. Delta -1.79 < Exp. Delta -0.7; setting current basal of 0.575 as temp", 
       "rate": 0.55, 
       "COB": 0, 
@@ -79,38 +165,43 @@
   "mmtune": {
     "scanDetails": [
       [
+        "916.540", 
+        5, 
+        -81
+      ], 
+      [
         "916.564", 
         5, 
-        -88
+        -79
       ], 
       [
         "916.588", 
-        3, 
-        -92
+        5, 
+        -82
       ], 
       [
         "916.612", 
         5, 
-        -85
+        -78
       ], 
       [
         "916.636", 
         5, 
-        -85
+        -80
       ], 
       [
         "916.660", 
         5, 
-        -86
+        -82
       ], 
       [
         "916.684", 
         5, 
-        -88
+        -86
       ]
     ], 
-    "setFreq": 916.636, 
-    "timestamp": "2017-05-02T13:57:51.000Z", 
+    "setFreq": 916.612, 
+    "timestamp": "2017-05-03T04:22:03.000Z", 
     "usedDefault": false
   }
 }
