@@ -3,95 +3,108 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.54
+      "voltage": 1.55
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-05-07T12:55:49.000Z", 
+      "timestamp": "2017-05-07T13:02:31.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 19.85, 
-    "clock": "2017-05-07T05:55:31-07:00"
+    "clock": "2017-05-07T06:02:38-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 149, 
+      "bg": 147, 
       "temp": "absolute", 
-      "snoozeBG": 86, 
-      "timestamp": "2017-05-07T12:58:31.000Z", 
-      "rate": 0, 
-      "reason": "COB: 0, Dev: -10, BGI: -1.8, ISF: 95, Target: 100; Eventual BG 86 < 100, setting 0U/hr", 
+      "snoozeBG": 103, 
+      "timestamp": "2017-05-07T13:03:59.000Z", 
+      "rate": 0.6, 
+      "reason": "COB: 0, Dev: -4, BGI: -2.09, ISF: 95, Target: 100; Eventual BG 103 > 100 but Min. Delta -2.72 < Exp. Delta -2.3; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
       "COB": 0, 
-      "eventualBG": 86, 
+      "eventualBG": 103, 
       "duration": 30, 
-      "tick": -5, 
-      "IOB": 0.555
+      "tick": -2, 
+      "IOB": 0.424
     }, 
     "iob": {
-      "netbasalinsulin": 0.65, 
-      "timestamp": "2017-05-07T12:55:31.000Z", 
-      "activity": 0.0038, 
-      "basaliob": 0.555, 
-      "hightempinsulin": 0.75, 
+      "netbasalinsulin": 0.55, 
+      "timestamp": "2017-05-07T13:02:38.000Z", 
+      "activity": 0.0044, 
+      "basaliob": 0.424, 
+      "hightempinsulin": 0.7, 
       "bolussnooze": 0, 
-      "iob": 0.555
+      "iob": 0.424
     }, 
     "enacted": {
-      "bg": 149, 
+      "bg": 147, 
       "temp": "absolute", 
-      "snoozeBG": 86, 
+      "snoozeBG": 103, 
       "recieved": true, 
       "predBGs": {
         "IOB": [
-          149, 
+          147, 
           144, 
-          140, 
-          135, 
+          142, 
+          139, 
+          136, 
+          133, 
           130, 
-          126, 
-          121, 
+          127, 
+          125, 
+          122, 
+          120, 
+          118, 
           117, 
+          115, 
+          114, 
           113, 
-          109, 
-          106, 
-          103, 
-          100, 
-          98, 
-          95, 
-          93, 
-          91, 
-          89, 
-          87, 
-          85, 
-          84, 
-          82, 
-          81, 
-          80, 
-          79, 
-          79, 
-          78, 
-          78, 
-          78, 
-          77
+          112, 
+          112, 
+          111, 
+          111, 
+          111, 
+          111, 
+          111, 
+          111, 
+          111, 
+          112, 
+          112, 
+          113, 
+          113, 
+          113, 
+          114, 
+          114, 
+          115, 
+          115, 
+          115, 
+          115, 
+          115, 
+          116
         ]
       }, 
-      "reason": "COB: 0, Dev: -10, BGI: -1.8, ISF: 95, Target: 100; Eventual BG 86 < 100, setting 0U/hr", 
-      "rate": 0, 
+      "reason": "COB: 0, Dev: -4, BGI: -2.09, ISF: 95, Target: 100; Eventual BG 103 > 100 but Min. Delta -2.72 < Exp. Delta -2.3; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
+      "rate": 0.575, 
       "COB": 0, 
-      "eventualBG": 86, 
-      "timestamp": "2017-05-07T12:58:43.000Z", 
+      "eventualBG": 103, 
+      "timestamp": "2017-05-07T13:04:24.000Z", 
       "duration": 30, 
-      "tick": -5, 
-      "IOB": 0.555
+      "tick": -2, 
+      "IOB": 0.424
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
+        "916.516", 
+        1, 
+        -98
+      ], 
+      [
         "916.540", 
-        4, 
-        -90
+        1, 
+        -97
       ], 
       [
         "916.564", 
@@ -122,15 +135,10 @@
         "916.684", 
         5, 
         -80
-      ], 
-      [
-        "916.708", 
-        2, 
-        -87
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2017-05-07T12:55:01.000Z", 
+    "timestamp": "2017-05-07T13:02:11.000Z", 
     "usedDefault": false
   }
 }
