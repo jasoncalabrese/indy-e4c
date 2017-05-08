@@ -7,89 +7,89 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-05-08T13:08:56.000Z", 
+      "timestamp": "2017-05-08T13:13:55.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 91.1, 
-    "clock": "2017-05-08T06:09:04-07:00"
+    "reservoir": 91, 
+    "clock": "2017-05-08T06:14:03-07:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 132, 
       "temp": "absolute", 
-      "snoozeBG": 125, 
-      "timestamp": "2017-05-08T13:10:53.000Z", 
+      "snoozeBG": 98, 
+      "timestamp": "2017-05-08T13:16:07.000Z", 
+      "rate": 0.65, 
+      "reason": "COB: 0, Dev: 0, BGI: 0.04, ISF: 89, Target: 97; Eventual BG 98 > 97 but Min. Delta -1.00 < Exp. Delta 0; setting current basal of 0.65 as temp", 
+      "COB": 0, 
+      "eventualBG": 98, 
+      "duration": 30, 
+      "tick": -1, 
+      "IOB": 0.387
+    }, 
+    "iob": {
+      "netbasalinsulin": 0.3, 
+      "timestamp": "2017-05-08T13:14:03.000Z", 
+      "activity": -0.0001, 
+      "basaliob": 0.387, 
+      "hightempinsulin": 0.8, 
+      "bolussnooze": 0, 
+      "iob": 0.387
+    }, 
+    "enacted": {
+      "bg": 132, 
+      "temp": "absolute", 
+      "snoozeBG": 98, 
+      "recieved": true, 
       "predBGs": {
         "IOB": [
           132, 
-          136, 
-          139, 
-          142, 
-          144, 
-          145, 
-          146, 
-          146, 
-          146, 
-          145, 
-          144, 
-          143, 
-          140, 
-          138, 
-          136, 
-          134, 
           131, 
+          130, 
           129, 
+          128, 
           126, 
           124, 
           122, 
           120, 
           118, 
           116, 
-          114, 
           113, 
           111, 
-          110, 
-          109, 
           108, 
-          108, 
-          107, 
-          106, 
-          106, 
-          106, 
-          106, 
-          106, 
-          105
+          105, 
+          102, 
+          99, 
+          96, 
+          93, 
+          91, 
+          88, 
+          85, 
+          82, 
+          80, 
+          78, 
+          76, 
+          74, 
+          73, 
+          71, 
+          70, 
+          69, 
+          68, 
+          68, 
+          67, 
+          67, 
+          66
         ]
       }, 
-      "reason": "COB: 0, Dev: 23, BGI: 0.22, ISF: 89, Target: 97; Eventual BG 125 >= 97, temp 1.2<1.3U/hr, but 21m left and 1.2 ~ req 1.3U/hr: no action required", 
+      "reason": "COB: 0, Dev: 0, BGI: 0.04, ISF: 89, Target: 97; Eventual BG 98 > 97 but Min. Delta -1.00 < Exp. Delta 0; setting current basal of 0.65 as temp", 
+      "rate": 0.65, 
       "COB": 0, 
-      "eventualBG": 125, 
-      "tick": "+4", 
-      "IOB": 0.336
-    }, 
-    "iob": {
-      "netbasalinsulin": 0.2, 
-      "timestamp": "2017-05-08T13:09:04.000Z", 
-      "activity": -0.0005, 
-      "basaliob": 0.336, 
-      "hightempinsulin": 0.75, 
-      "bolussnooze": 0, 
-      "iob": 0.336
-    }, 
-    "enacted": {
-      "bg": 103, 
-      "temp": "absolute", 
-      "snoozeBG": 87, 
-      "recieved": true, 
-      "reason": "COB: 0, Dev: -7, BGI: 0.76, ISF: 90, Target: 98; Eventual BG 87 < 98, setting 0.125U/hr", 
-      "rate": 0.125, 
-      "COB": 0, 
-      "eventualBG": 87, 
-      "timestamp": "2017-05-08T11:40:21.000Z", 
+      "eventualBG": 98, 
+      "timestamp": "2017-05-08T13:16:39.000Z", 
       "duration": 30, 
       "tick": -1, 
-      "IOB": 0.1
+      "IOB": 0.387
     }
   }, 
   "mmtune": {
@@ -97,22 +97,22 @@
       [
         "916.564", 
         5, 
-        -91
+        -90
       ], 
       [
         "916.588", 
         5, 
-        -90
+        -89
       ], 
       [
         "916.612", 
         5, 
-        -89
+        -88
       ], 
       [
         "916.636", 
         5, 
-        -89
+        -88
       ], 
       [
         "916.660", 
@@ -125,8 +125,8 @@
         -92
       ]
     ], 
-    "setFreq": 916.66, 
-    "timestamp": "2017-05-08T13:08:33.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2017-05-08T13:13:32.000Z", 
     "usedDefault": false
   }
 }
