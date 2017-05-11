@@ -7,85 +7,90 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-05-11T07:34:26.000Z", 
+      "timestamp": "2017-05-11T07:38:15.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 73.1, 
-    "clock": "2017-05-11T00:34:22-07:00"
+    "reservoir": 73.05, 
+    "clock": "2017-05-11T00:38:25-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 163, 
+      "bg": 162, 
       "temp": "absolute", 
-      "snoozeBG": 72, 
-      "timestamp": "2017-05-11T07:35:39.000Z", 
-      "rate": 0.1, 
-      "reason": "COB: 0, Dev: 39, BGI: -6.44, ISF: 86, Target: 96; Eventual BG 72 < 96, setting 0.1U/hr", 
+      "snoozeBG": 79, 
+      "timestamp": "2017-05-11T07:40:10.000Z", 
+      "rate": 1.05, 
+      "reason": "COB: 0, Dev: 33, BGI: -6.52, ISF: 86, Target: 96; Eventual BG 79 < 96, Snooze BG 79, 28m@-1.100 = -0.513 < req -0.07-0.36", 
       "COB": 0, 
-      "eventualBG": 72, 
+      "eventualBG": 79, 
       "duration": 30, 
-      "tick": "+0", 
-      "IOB": 1.505
+      "tick": -1, 
+      "IOB": 1.344
     }, 
     "iob": {
-      "netbasalinsulin": 2.65, 
-      "timestamp": "2017-05-11T07:34:22.000Z", 
-      "activity": 0.0149, 
-      "basaliob": 1.505, 
-      "hightempinsulin": 2.65, 
+      "netbasalinsulin": 2.55, 
+      "timestamp": "2017-05-11T07:38:25.000Z", 
+      "activity": 0.0151, 
+      "basaliob": 1.344, 
+      "hightempinsulin": 2.6, 
       "bolussnooze": 0, 
-      "iob": 1.505
+      "iob": 1.344
     }, 
     "enacted": {
-      "bg": 163, 
+      "bg": 162, 
       "temp": "absolute", 
-      "snoozeBG": 72, 
+      "snoozeBG": 79, 
       "recieved": true, 
       "predBGs": {
         "IOB": [
-          163, 
           162, 
           161, 
-          159, 
-          157, 
+          158, 
+          156, 
           153, 
-          150, 
-          145, 
-          140, 
-          135, 
+          149, 
+          146, 
+          142, 
+          137, 
+          133, 
           129, 
-          123, 
-          117, 
-          111, 
+          124, 
+          119, 
+          115, 
+          112, 
+          109, 
+          107, 
           105, 
-          100, 
-          95, 
-          90, 
-          86, 
-          82, 
-          79, 
-          76, 
-          73, 
-          71, 
-          69, 
-          67, 
-          66, 
-          65, 
-          64, 
-          63, 
-          63, 
-          62
+          103, 
+          102, 
+          102, 
+          101, 
+          101, 
+          101, 
+          101, 
+          101, 
+          102, 
+          102, 
+          103, 
+          104, 
+          104, 
+          105, 
+          106, 
+          106, 
+          107, 
+          107, 
+          108
         ]
       }, 
-      "reason": "COB: 0, Dev: 39, BGI: -6.44, ISF: 86, Target: 96; Eventual BG 72 < 96, setting 0.1U/hr", 
-      "rate": 0.1, 
+      "reason": "COB: 0, Dev: 33, BGI: -6.52, ISF: 86, Target: 96; Eventual BG 79 < 96, Snooze BG 79, 28m@-1.100 = -0.513 < req -0.07-0.36", 
+      "rate": 1.05, 
       "COB": 0, 
-      "eventualBG": 72, 
-      "timestamp": "2017-05-11T07:35:53.000Z", 
+      "eventualBG": 79, 
+      "timestamp": "2017-05-11T07:40:31.000Z", 
       "duration": 30, 
-      "tick": "+0", 
-      "IOB": 1.505
+      "tick": -1, 
+      "IOB": 1.344
     }
   }, 
   "mmtune": {
@@ -96,9 +101,24 @@
         -96
       ], 
       [
+        "916.324", 
+        1, 
+        -97
+      ], 
+      [
+        "916.348", 
+        2, 
+        -96
+      ], 
+      [
+        "916.540", 
+        2, 
+        -89
+      ], 
+      [
         "916.564", 
-        5, 
-        -66
+        4, 
+        -73
       ], 
       [
         "916.588", 
@@ -118,7 +138,7 @@
       [
         "916.660", 
         5, 
-        -64
+        -63
       ], 
       [
         "916.684", 
@@ -127,7 +147,7 @@
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2017-05-11T07:33:53.000Z", 
+    "timestamp": "2017-05-11T07:37:53.000Z", 
     "usedDefault": false
   }
 }
