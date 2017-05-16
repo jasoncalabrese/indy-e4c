@@ -3,48 +3,52 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.49
+      "voltage": 1.47
     }, 
     "status": {
-      "status": "normal", 
-      "timestamp": "2017-05-16T04:10:56.000Z", 
+      "status": "error", 
+      "timestamp": "2017-05-16T04:15:59.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 17.425, 
-    "clock": "2017-05-15T21:11:07-07:00"
+    "reservoir": 301.9, 
+    "clock": "2017-05-15T21:16:04-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 95, 
+      "bg": 85, 
       "temp": "absolute", 
-      "snoozeBG": 1, 
-      "timestamp": "2017-05-16T04:12:47.000Z", 
+      "snoozeBG": 6, 
+      "timestamp": "2017-05-16T04:17:47.000Z", 
       "rate": 1.4, 
-      "reason": "COB: 53, Dev: 42, BGI: -16.56, ISF: 89, Target: 80; Eventual BG 144 > 80 but Min. Delta -9.49 < Exp. Delta -7.7; setting current basal of 1.4 as temp", 
+      "reason": "COB: 53, Dev: 43, BGI: -17.23, ISF: 89, Target: 80; Eventual BG 180 > 80 but Min. Delta -10.00 < Exp. Delta -9.3; setting current basal of 1.4 as temp", 
       "COB": 53, 
-      "eventualBG": 144, 
+      "eventualBG": 180, 
       "duration": 30, 
-      "tick": -5, 
-      "IOB": 2.433
+      "tick": -10, 
+      "IOB": 2.141
     }, 
     "iob": {
-      "netbasalinsulin": 1.5, 
-      "timestamp": "2017-05-16T04:11:07.000Z", 
-      "activity": 0.0373, 
-      "basaliob": 0.627, 
-      "hightempinsulin": 1.75, 
-      "bolussnooze": 0.31, 
-      "iob": 2.433
+      "netbasalinsulin": 1.35, 
+      "timestamp": "2017-05-16T04:16:04.000Z", 
+      "activity": 0.0388, 
+      "basaliob": 0.478, 
+      "hightempinsulin": 1.7, 
+      "bolussnooze": 0.191, 
+      "iob": 2.141
     }, 
     "enacted": {
-      "bg": 95, 
+      "requested": {
+        "duration": 30, 
+        "rate": 1.4, 
+        "temp": "absolute"
+      }, 
+      "bg": 85, 
       "temp": "absolute", 
-      "snoozeBG": 1, 
-      "recieved": true, 
+      "snoozeBG": 6, 
+      "timestamp": "2017-05-16T04:18:14.000Z", 
       "predBGs": {
         "COB": [
-          95, 
           85, 
           75, 
           64, 
@@ -66,79 +70,80 @@
           39, 
           39, 
           39, 
+          42, 
+          50, 
+          58, 
+          66, 
+          74, 
+          82, 
+          90, 
+          98, 
+          105, 
+          112, 
+          119, 
+          126, 
+          132, 
+          138, 
+          144, 
+          150, 
+          155, 
+          160, 
+          165, 
+          170, 
+          175, 
+          180
+        ], 
+        "aCOB": [
+          85, 
+          78, 
+          70, 
+          62, 
+          56, 
+          50, 
+          45, 
+          40, 
+          39, 
+          39, 
+          39, 
+          39, 
           39, 
           39, 
           40, 
-          47, 
-          53, 
-          60, 
-          67, 
-          73, 
-          80, 
-          86, 
-          92, 
-          98, 
-          104, 
-          109, 
-          115, 
-          120, 
-          125, 
-          130, 
-          134, 
-          139, 
-          144
-        ], 
-        "aCOB": [
-          95, 
-          88, 
-          81, 
-          73, 
-          65, 
-          58, 
-          52, 
-          47, 
-          43, 
-          39, 
-          39, 
-          39, 
-          39, 
-          39, 
-          39, 
-          39, 
-          41, 
           45, 
           50, 
-          55, 
-          62, 
-          68, 
-          76, 
-          84, 
-          92, 
-          101, 
-          109, 
+          56, 
+          63, 
+          71, 
+          79, 
+          88, 
+          97, 
+          107, 
           117, 
-          125, 
-          133, 
-          140, 
-          148, 
-          155, 
+          126, 
+          136, 
+          145, 
+          154, 
           162, 
-          169, 
-          175, 
-          181, 
-          187, 
+          171, 
+          179, 
+          186, 
           193, 
-          198, 
-          204, 
-          209, 
-          214
+          200, 
+          207, 
+          214, 
+          220, 
+          226, 
+          231, 
+          237, 
+          242, 
+          247
         ], 
         "IOB": [
-          95, 
           85, 
           74, 
-          61, 
-          49, 
+          63, 
+          51, 
+          40, 
           39, 
           39, 
           39, 
@@ -149,66 +154,56 @@
           39
         ]
       }, 
-      "reason": "COB: 53, Dev: 42, BGI: -16.56, ISF: 89, Target: 80; Eventual BG 144 > 80 but Min. Delta -9.49 < Exp. Delta -7.7; setting current basal of 1.4 as temp", 
-      "rate": 1.375, 
+      "reason": "COB: 53, Dev: 43, BGI: -17.23, ISF: 89, Target: 80; Eventual BG 180 > 80 but Min. Delta -10.00 < Exp. Delta -9.3; setting current basal of 1.4 as temp", 
+      "rate": 0, 
       "COB": 53, 
-      "eventualBG": 144, 
-      "timestamp": "2017-05-16T04:13:09.000Z", 
-      "duration": 30, 
-      "tick": -5, 
-      "IOB": 2.433
+      "eventualBG": 180, 
+      "recieved": false, 
+      "duration": 27, 
+      "tick": -10, 
+      "IOB": 2.141
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
-        "916.300", 
-        1, 
-        -96
-      ], 
-      [
-        "916.492", 
-        3, 
-        -71
-      ], 
-      [
         "916.516", 
-        4, 
-        -82
+        5, 
+        -84
       ], 
       [
         "916.540", 
-        4, 
-        -80
+        5, 
+        -75
       ], 
       [
         "916.564", 
         5, 
-        -79
+        -73
       ], 
       [
         "916.588", 
-        5, 
-        -81
+        4, 
+        -78
       ], 
       [
         "916.612", 
         5, 
-        -81
+        -75
       ], 
       [
         "916.636", 
         5, 
-        -81
+        -82
       ], 
       [
         "916.660", 
-        5, 
-        -87
+        2, 
+        -93
       ]
     ], 
     "setFreq": 916.564, 
-    "timestamp": "2017-05-16T04:10:33.000Z", 
+    "timestamp": "2017-05-16T04:15:30.000Z", 
     "usedDefault": false
   }
 }
