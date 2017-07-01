@@ -7,90 +7,88 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-07-01T18:24:34.000Z", 
+      "timestamp": "2017-07-01T18:35:28.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 91.75, 
-    "clock": "2017-07-01T11:24:55-07:00"
+    "clock": "2017-07-01T11:35:46-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 77, 
+      "bg": 70, 
       "temp": "absolute", 
-      "snoozeBG": 74, 
-      "timestamp": "2017-07-01T18:25:51.000Z", 
+      "snoozeBG": 73, 
+      "timestamp": "2017-07-01T18:36:45.000Z", 
+      "rate": 0, 
+      "reason": "COB: 0, Dev: -28, BGI: 1.14, ISF: 95, Target: 100; BG 70<75", 
+      "COB": 0, 
+      "eventualBG": 73, 
+      "duration": 30, 
+      "tick": -4, 
+      "IOB": -0.331
+    }, 
+    "iob": {
+      "netbasalinsulin": -0.35, 
+      "timestamp": "2017-07-01T18:35:46.000Z", 
+      "activity": -0.0024, 
+      "basaliob": -0.331, 
+      "hightempinsulin": 0.55, 
+      "bolussnooze": 0, 
+      "iob": -0.331
+    }, 
+    "enacted": {
+      "bg": 70, 
+      "temp": "absolute", 
+      "snoozeBG": 73, 
+      "recieved": true, 
       "predBGs": {
         "IOB": [
-          77, 
-          74, 
-          71, 
-          69, 
+          70, 
+          66, 
+          63, 
+          61, 
+          59, 
+          57, 
+          56, 
+          56, 
+          56, 
+          56, 
+          57, 
+          59, 
+          61, 
+          63, 
+          65, 
           67, 
-          66, 
-          65, 
-          65, 
-          65, 
-          65, 
-          66, 
-          68, 
           69, 
           71, 
           73, 
+          75, 
           76, 
           78, 
-          80, 
+          79, 
+          81, 
           82, 
           83, 
+          84, 
           85, 
+          86, 
           87, 
-          89, 
-          90, 
-          92, 
-          93, 
-          94, 
-          96, 
-          97, 
-          98, 
-          99, 
-          99, 
-          100, 
-          100, 
-          101, 
-          101, 
-          101, 
-          101, 
-          102
+          87, 
+          88, 
+          88, 
+          88, 
+          89
         ]
       }, 
-      "reason": "COB: 0, Dev: -27, BGI: 1.14, ISF: 95, Target: 100; Eventual BG 74 < 100, setting -0.5U/hr, but 26m left and 0 ~ req 0U/hr: no action required", 
+      "reason": "COB: 0, Dev: -28, BGI: 1.14, ISF: 95, Target: 100; BG 70<75", 
+      "rate": 0, 
       "COB": 0, 
-      "eventualBG": 74, 
-      "tick": -3, 
-      "IOB": -0.257
-    }, 
-    "iob": {
-      "netbasalinsulin": -0.2, 
-      "timestamp": "2017-07-01T18:24:55.000Z", 
-      "activity": -0.0024, 
-      "basaliob": -0.257, 
-      "hightempinsulin": 0.6, 
-      "bolussnooze": 0, 
-      "iob": -0.257
-    }, 
-    "enacted": {
-      "bg": 98, 
-      "temp": "absolute", 
-      "snoozeBG": 107, 
-      "recieved": true, 
-      "reason": "COB: 0, Dev: -2, BGI: 1.05, ISF: 95, Target: 100; Eventual BG 107 >= 100, temp 0<0.75U/hr", 
-      "rate": 0.75, 
-      "COB": 0, 
-      "eventualBG": 107, 
-      "timestamp": "2017-07-01T18:03:32.000Z", 
+      "eventualBG": 73, 
+      "timestamp": "2017-07-01T18:37:31.000Z", 
       "duration": 30, 
-      "tick": "+8", 
-      "IOB": -0.112
+      "tick": -4, 
+      "IOB": -0.331
     }
   }, 
   "mmtune": {
@@ -98,36 +96,41 @@
       [
         "916.564", 
         5, 
-        -94
+        -81
       ], 
       [
         "916.588", 
         5, 
-        -92
+        -78
       ], 
       [
         "916.612", 
         5, 
-        -91
+        -78
       ], 
       [
         "916.636", 
         5, 
-        -91
+        -78
       ], 
       [
         "916.660", 
         5, 
-        -91
+        -78
       ], 
       [
         "916.684", 
         5, 
-        -93
+        -79
+      ], 
+      [
+        "916.708", 
+        5, 
+        -87
       ]
     ], 
     "setFreq": 916.66, 
-    "timestamp": "2017-07-01T18:24:07.000Z", 
+    "timestamp": "2017-07-01T18:34:59.000Z", 
     "usedDefault": false
   }
 }
