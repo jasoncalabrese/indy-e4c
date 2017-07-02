@@ -7,26 +7,57 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-07-02T15:35:01.000Z", 
+      "timestamp": "2017-07-02T15:42:35.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 72.275, 
-    "clock": "2017-07-02T08:35:29-07:00"
+    "reservoir": 72.2, 
+    "clock": "2017-07-02T08:43:03-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2017-07-02T15:36:59.000Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sun Jul 02 2017 08:26:39 GMT-0700 (PDT) but your system time is Sun Jul 02 2017 08:36:59 GMT-0700 (PDT)"
+      "bg": 123, 
+      "temp": "absolute", 
+      "snoozeBG": 106, 
+      "timestamp": "2017-07-02T15:43:49.000Z", 
+      "predBGs": {
+        "IOB": [
+          123, 
+          122, 
+          121, 
+          119, 
+          118, 
+          117, 
+          115, 
+          114, 
+          113, 
+          112, 
+          111, 
+          110, 
+          109, 
+          108, 
+          107, 
+          106, 
+          106, 
+          105, 
+          105, 
+          104
+        ]
+      }, 
+      "reason": "COB: 0, Dev: 3, BGI: -1.57, ISF: 95, Target: 100; Eventual BG 106 >= 100, temp 0.65<0.675U/hr, but 22m left and 0.65 ~ req 0.675U/hr: no action required", 
+      "COB": 0, 
+      "eventualBG": 106, 
+      "tick": -1, 
+      "IOB": 0.215
     }, 
     "iob": {
-      "netbasalinsulin": 0.15, 
-      "timestamp": "2017-07-02T15:35:29.000Z", 
-      "activity": 0.0029, 
-      "basaliob": 0.239, 
+      "netbasalinsulin": 0.2, 
+      "timestamp": "2017-07-02T15:43:03.000Z", 
+      "activity": 0.0033, 
+      "basaliob": 0.215, 
       "hightempinsulin": 0.45, 
       "bolussnooze": 0, 
-      "iob": 0.239
+      "iob": 0.215
     }, 
     "enacted": {
       "bg": 125, 
@@ -48,17 +79,17 @@
       [
         "916.564", 
         5, 
-        -84
+        -85
       ], 
       [
         "916.588", 
         5, 
-        -80
+        -81
       ], 
       [
         "916.612", 
         5, 
-        -79
+        -81
       ], 
       [
         "916.636", 
@@ -68,12 +99,12 @@
       [
         "916.660", 
         5, 
-        -80
+        -81
       ], 
       [
         "916.684", 
         5, 
-        -81
+        -82
       ], 
       [
         "916.708", 
@@ -81,8 +112,8 @@
         -89
       ]
     ], 
-    "setFreq": 916.612, 
-    "timestamp": "2017-07-02T15:34:50.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2017-07-02T15:42:12.000Z", 
     "usedDefault": false
   }
 }
