@@ -7,26 +7,73 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-07-05T12:05:12.000Z", 
+      "timestamp": "2017-07-05T12:09:21.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 66.3, 
-    "clock": "2017-07-05T05:05:41-07:00"
+    "reservoir": 66.275, 
+    "clock": "2017-07-05T05:09:50-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2017-07-05T12:06:59.000Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Wed Jul 05 2017 04:56:28 GMT-0700 (PDT) but your system time is Wed Jul 05 2017 05:06:59 GMT-0700 (PDT)"
+      "bg": 141, 
+      "temp": "absolute", 
+      "snoozeBG": 121, 
+      "timestamp": "2017-07-05T12:10:42.000Z", 
+      "predBGs": {
+        "IOB": [
+          141, 
+          142, 
+          142, 
+          142, 
+          142, 
+          142, 
+          141, 
+          141, 
+          139, 
+          138, 
+          136, 
+          134, 
+          131, 
+          129, 
+          127, 
+          124, 
+          122, 
+          120, 
+          117, 
+          115, 
+          113, 
+          111, 
+          110, 
+          108, 
+          106, 
+          105, 
+          104, 
+          103, 
+          102, 
+          101, 
+          100, 
+          100, 
+          99, 
+          99, 
+          99, 
+          98
+        ]
+      }, 
+      "reason": "COB: 0, Dev: 19, BGI: -2.28, ISF: 95, Target: 100; Eventual BG 121 >= 100, temp 1<1.05U/hr, but 30m left and 1 ~ req 1.05U/hr: no action required", 
+      "COB": 0, 
+      "eventualBG": 121, 
+      "tick": "+1", 
+      "IOB": 0.408
     }, 
     "iob": {
       "netbasalinsulin": 1.1, 
-      "timestamp": "2017-07-05T12:05:41.000Z", 
-      "activity": 0.0049, 
-      "basaliob": 0.427, 
+      "timestamp": "2017-07-05T12:09:50.000Z", 
+      "activity": 0.0048, 
+      "basaliob": 0.408, 
       "hightempinsulin": 1.25, 
       "bolussnooze": 0, 
-      "iob": 0.427
+      "iob": 0.408
     }, 
     "enacted": {
       "bg": 122, 
@@ -46,43 +93,68 @@
   "mmtune": {
     "scanDetails": [
       [
+        "916.420", 
+        2, 
+        -96
+      ], 
+      [
+        "916.444", 
+        2, 
+        -95
+      ], 
+      [
+        "916.468", 
+        1, 
+        -97
+      ], 
+      [
         "916.564", 
-        5, 
-        -85
+        3, 
+        -88
       ], 
       [
         "916.588", 
         5, 
-        -82
+        -68
       ], 
       [
         "916.612", 
         5, 
-        -81
+        -66
       ], 
       [
         "916.636", 
         5, 
-        -82
+        -65
       ], 
       [
         "916.660", 
         5, 
-        -82
+        -66
       ], 
       [
         "916.684", 
         5, 
-        -83
+        -66
       ], 
       [
         "916.708", 
         5, 
-        -89
+        -70
+      ], 
+      [
+        "916.828", 
+        3, 
+        -93
+      ], 
+      [
+        "916.852", 
+        2, 
+        -95
       ]
     ], 
-    "setFreq": 916.612, 
-    "timestamp": "2017-07-05T12:04:52.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2017-07-05T12:09:01.000Z", 
     "usedDefault": false
   }
 }
