@@ -3,106 +3,209 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.58
+      "voltage": 1.54
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-07-06T19:54:26.000Z", 
+      "timestamp": "2017-07-06T20:32:23.000Z", 
       "bolusing": false, 
-      "suspended": true
+      "suspended": false
     }, 
-    "reservoir": 34.2, 
-    "clock": "2017-07-06T12:54:55-07:00"
+    "reservoir": 32.9, 
+    "clock": "2017-07-06T13:32:52-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2017-07-06T19:56:06.000Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Thu Jul 06 2017 11:56:24 GMT-0700 (PDT) but your system time is Thu Jul 06 2017 12:56:06 GMT-0700 (PDT)"
+      "bg": 118, 
+      "temp": "absolute", 
+      "snoozeBG": 153, 
+      "timestamp": "2017-07-06T20:34:11.000Z", 
+      "rate": 0.6, 
+      "reason": "COB: 27, Dev: 9, BGI: -3.52, ISF: 95, Target: 100; Eventual BG 88 < 100, bolus snooze: eventual BG range 88-153; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
+      "COB": 27, 
+      "eventualBG": 88, 
+      "duration": 30, 
+      "tick": -4, 
+      "IOB": 0.681
     }, 
     "iob": {
-      "netbasalinsulin": -0.55, 
-      "timestamp": "2017-07-06T19:54:55.000Z", 
-      "activity": 0.0108, 
-      "basaliob": -0.435, 
-      "hightempinsulin": 0.3, 
-      "bolussnooze": 0.022, 
-      "iob": 0.108
+      "netbasalinsulin": -0.5, 
+      "timestamp": "2017-07-06T20:32:52.000Z", 
+      "activity": 0.0074, 
+      "basaliob": -0.429, 
+      "hightempinsulin": 0.45, 
+      "bolussnooze": 0.642, 
+      "iob": 0.681
     }, 
     "enacted": {
-      "bg": 112, 
+      "bg": 118, 
       "temp": "absolute", 
-      "snoozeBG": 131, 
+      "snoozeBG": 153, 
       "recieved": true, 
-      "reason": "COB: 17, Dev: -14, BGI: -0.19, ISF: 95, Target: 100; Eventual BG 126 > 100 but Min. Delta -5.00 < Exp. Delta 5.9; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
+      "predBGs": {
+        "COB": [
+          118, 
+          118, 
+          119, 
+          119, 
+          119, 
+          119, 
+          119, 
+          118, 
+          116, 
+          114, 
+          112, 
+          110, 
+          108, 
+          106, 
+          103, 
+          100, 
+          97, 
+          93, 
+          89, 
+          86, 
+          82, 
+          79, 
+          76, 
+          73, 
+          71, 
+          69, 
+          68, 
+          66, 
+          66, 
+          66, 
+          66, 
+          67, 
+          67, 
+          68, 
+          70, 
+          71, 
+          73, 
+          75, 
+          77, 
+          80, 
+          82, 
+          85, 
+          88
+        ], 
+        "aCOB": [
+          118, 
+          124, 
+          130, 
+          136, 
+          142, 
+          147, 
+          151, 
+          155, 
+          158, 
+          160, 
+          163, 
+          164, 
+          166, 
+          167, 
+          168, 
+          169, 
+          169, 
+          168, 
+          167, 
+          166, 
+          165, 
+          164, 
+          163, 
+          162, 
+          162, 
+          161, 
+          161, 
+          162, 
+          162, 
+          163, 
+          164, 
+          165, 
+          166, 
+          167, 
+          168, 
+          170, 
+          171, 
+          173, 
+          174, 
+          176, 
+          177, 
+          179, 
+          180
+        ], 
+        "IOB": [
+          118, 
+          118, 
+          118, 
+          117, 
+          116, 
+          115, 
+          113, 
+          109, 
+          106, 
+          101, 
+          96, 
+          90, 
+          85, 
+          79, 
+          73, 
+          66, 
+          59, 
+          52, 
+          45, 
+          39
+        ]
+      }, 
+      "reason": "COB: 27, Dev: 9, BGI: -3.52, ISF: 95, Target: 100; Eventual BG 88 < 100, bolus snooze: eventual BG range 88-153; setting current basal of 0.6 as temp. Setting neutral temp basal of 0.6U/hr", 
       "rate": 0.575, 
-      "COB": 17, 
-      "eventualBG": 126, 
-      "timestamp": "2017-07-06T18:50:03.000Z", 
+      "COB": 27, 
+      "eventualBG": 88, 
+      "timestamp": "2017-07-06T20:34:51.000Z", 
       "duration": 30, 
-      "tick": -5, 
-      "IOB": 1.139
+      "tick": -4, 
+      "IOB": 0.681
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
-        "916.300", 
-        1, 
-        -96
-      ], 
-      [
-        "916.324", 
-        1, 
-        -96
-      ], 
-      [
-        "916.348", 
-        1, 
-        -96
-      ], 
-      [
-        "916.372", 
-        1, 
-        -96
-      ], 
-      [
         "916.540", 
-        3, 
-        -74
+        5, 
+        -92
       ], 
       [
         "916.564", 
         5, 
-        -54
+        -87
       ], 
       [
         "916.588", 
         5, 
-        -54
+        -86
       ], 
       [
         "916.612", 
         5, 
-        -54
+        -86
       ], 
       [
         "916.636", 
         5, 
-        -54
+        -85
       ], 
       [
         "916.660", 
         5, 
-        -55
+        -86
       ], 
       [
-        "916.708", 
-        1, 
-        -92
+        "916.684", 
+        5, 
+        -90
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2017-07-06T19:54:06.000Z", 
+    "timestamp": "2017-07-06T20:32:03.000Z", 
     "usedDefault": false
   }
 }
