@@ -7,26 +7,69 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-07-11T15:10:44.000Z", 
+      "timestamp": "2017-07-11T15:15:36.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 54.2, 
-    "clock": "2017-07-11T08:11:12-07:00"
+    "reservoir": 54.075, 
+    "clock": "2017-07-11T08:15:41-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2017-07-11T15:11:57.000Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Tue Jul 11 2017 08:00:54 GMT-0700 (PDT) but your system time is Tue Jul 11 2017 08:11:57 GMT-0700 (PDT)"
+      "bg": 135, 
+      "temp": "absolute", 
+      "snoozeBG": 104, 
+      "timestamp": "2017-07-11T15:16:53.000Z", 
+      "predBGs": {
+        "IOB": [
+          135, 
+          135, 
+          135, 
+          134, 
+          134, 
+          133, 
+          132, 
+          131, 
+          130, 
+          128, 
+          127, 
+          125, 
+          122, 
+          120, 
+          118, 
+          116, 
+          113, 
+          111, 
+          109, 
+          107, 
+          106, 
+          104, 
+          102, 
+          101, 
+          100, 
+          99, 
+          98, 
+          97, 
+          96, 
+          95, 
+          95, 
+          94
+        ]
+      }, 
+      "reason": "COB: 0, Dev: 6, BGI: -0.95, ISF: 95, Target: 100; Eventual BG 104 >= 100, 30m@0.150 = 0.075 > req 0.04+20%. Setting temp basal of 0.7U/hr, but 30m left and 0.775 ~ req 0.7U/hr: no action required", 
+      "COB": 0, 
+      "eventualBG": 104, 
+      "tick": "+0", 
+      "IOB": 0.385
     }, 
     "iob": {
-      "netbasalinsulin": 0.7, 
-      "timestamp": "2017-07-11T15:11:12.000Z", 
-      "activity": 0.0019, 
-      "basaliob": 0.344, 
-      "hightempinsulin": 0.95, 
+      "netbasalinsulin": 0.8, 
+      "timestamp": "2017-07-11T15:15:41.000Z", 
+      "activity": 0.002, 
+      "basaliob": 0.385, 
+      "hightempinsulin": 1, 
       "bolussnooze": 0, 
-      "iob": 0.344
+      "iob": 0.385
     }, 
     "enacted": {
       "bg": 132, 
@@ -48,41 +91,41 @@
       [
         "916.564", 
         5, 
-        -80
+        -78
       ], 
       [
         "916.588", 
         5, 
-        -77
+        -75
       ], 
       [
         "916.612", 
         5, 
-        -77
+        -74
       ], 
       [
         "916.636", 
         5, 
-        -77
+        -74
       ], 
       [
         "916.660", 
         5, 
-        -78
+        -74
       ], 
       [
         "916.684", 
         5, 
-        -79
+        -76
       ], 
       [
         "916.708", 
-        3, 
-        -92
+        5, 
+        -85
       ]
     ], 
-    "setFreq": 916.636, 
-    "timestamp": "2017-07-11T15:10:21.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2017-07-11T15:14:51.000Z", 
     "usedDefault": false
   }
 }
