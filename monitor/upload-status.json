@@ -7,104 +7,110 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-07-14T16:05:20.000Z", 
+      "timestamp": "2017-07-14T16:11:17.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 38.375, 
-    "clock": "2017-07-14T09:05:51-07:00"
+    "reservoir": 38.3, 
+    "clock": "2017-07-14T09:11:24-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 105, 
+      "bg": 107, 
       "temp": "absolute", 
-      "snoozeBG": 97, 
-      "timestamp": "2017-07-14T16:07:05.000Z", 
-      "rate": 0.5, 
-      "reason": "COB: 0, Dev: 0, BGI: 0.57, ISF: 95, Target: 100; Eventual BG 97 < 100, setting 0.5U/hr", 
+      "snoozeBG": 110, 
+      "timestamp": "2017-07-14T16:13:13.000Z", 
+      "rate": 0.85, 
+      "reason": "COB: 0, Dev: 2, BGI: 0.48, ISF: 95, Target: 100; Eventual BG 110 >= 100, temp 0.5<0.85U/hr", 
       "COB": 0, 
-      "eventualBG": 97, 
+      "eventualBG": 110, 
       "duration": 30, 
-      "tick": "+2", 
-      "IOB": 0.08
+      "tick": "+1", 
+      "IOB": -0.015
     }, 
     "iob": {
-      "netbasalinsulin": -0.05, 
-      "timestamp": "2017-07-14T16:05:51.000Z", 
-      "activity": -0.0012, 
-      "basaliob": 0.08, 
-      "hightempinsulin": 0.2, 
+      "netbasalinsulin": -0.15, 
+      "timestamp": "2017-07-14T16:11:24.000Z", 
+      "activity": -0.001, 
+      "basaliob": -0.015, 
+      "hightempinsulin": 0.15, 
       "bolussnooze": 0, 
-      "iob": 0.08
+      "iob": -0.015
     }, 
     "enacted": {
-      "bg": 105, 
+      "bg": 107, 
       "temp": "absolute", 
-      "snoozeBG": 97, 
+      "snoozeBG": 110, 
       "recieved": true, 
       "predBGs": {
         "IOB": [
-          105, 
-          106, 
-          106, 
           107, 
-          107, 
-          107, 
-          107, 
-          107, 
-          107, 
-          106, 
-          106, 
-          105, 
-          105, 
-          104, 
-          103, 
-          103, 
-          102, 
-          101, 
-          100, 
-          100, 
-          99, 
-          98, 
-          98, 
-          97, 
-          97, 
-          96, 
-          96, 
-          96, 
-          95, 
-          95, 
-          95, 
-          95, 
-          94
+          108, 
+          108, 
+          109, 
+          109, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          110, 
+          111
         ]
       }, 
-      "reason": "COB: 0, Dev: 0, BGI: 0.57, ISF: 95, Target: 100; Eventual BG 97 < 100, setting 0.5U/hr", 
-      "rate": 0.5, 
+      "reason": "COB: 0, Dev: 2, BGI: 0.48, ISF: 95, Target: 100; Eventual BG 110 >= 100, temp 0.5<0.85U/hr", 
+      "rate": 0.85, 
       "COB": 0, 
-      "eventualBG": 97, 
-      "timestamp": "2017-07-14T16:07:19.000Z", 
+      "eventualBG": 110, 
+      "timestamp": "2017-07-14T16:13:27.000Z", 
       "duration": 30, 
-      "tick": "+2", 
-      "IOB": 0.08
+      "tick": "+1", 
+      "IOB": -0.015
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
+        "916.540", 
+        1, 
+        -97
+      ], 
+      [
         "916.564", 
-        5, 
-        -79
+        4, 
+        -82
       ], 
       [
         "916.588", 
         5, 
-        -77
+        -76
       ], 
       [
         "916.612", 
         5, 
-        -76
+        -75
       ], 
       [
         "916.636", 
@@ -120,15 +126,10 @@
         "916.684", 
         5, 
         -78
-      ], 
-      [
-        "916.708", 
-        2, 
-        -94
       ]
     ], 
-    "setFreq": 916.636, 
-    "timestamp": "2017-07-14T16:05:09.000Z", 
+    "setFreq": 916.612, 
+    "timestamp": "2017-07-14T16:10:32.000Z", 
     "usedDefault": false
   }
 }
