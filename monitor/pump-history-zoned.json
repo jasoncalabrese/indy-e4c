@@ -1,6 +1,44 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2017-08-23T02:21:26 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-08-23T02:21:26-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "9a15025711"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-08-23T02:21:26 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-08-23T02:21:26-07:00", 
+    "_body": "00", 
+    "_head": "3321", 
+    "rate": 0.825, 
+    "_date": "9a15025711"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2017-08-23T02:21:00 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-08-23T02:21:00-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "8015025711"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-08-23T02:21:00 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-08-23T02:21:00-07:00", 
+    "_body": "00", 
+    "_head": "3320", 
+    "rate": 0.8, 
+    "_date": "8015025711"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2017-08-23T02:01:22 head[2], body[0] op[0x16]", 
     "timestamp": "2017-08-23T02:01:22-07:00", 
     "_body": "", 
@@ -987,55 +1025,5 @@
     "rate": 0.95, 
     "offset": 70200000, 
     "_date": "9226141611"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2017-08-22T20:08:18 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-08-22T20:08:18-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "9208145611"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-08-22T20:08:18 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-08-22T20:08:18-07:00", 
-    "_body": "00", 
-    "_head": "3326", 
-    "rate": 0.95, 
-    "_date": "9208145611"
-  }, 
-  {
-    "programmed": 3.75, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2017-08-22T20:02:06 head[8], body[0] op[0x01]", 
-    "timestamp": "2017-08-22T20:02:06-07:00", 
-    "_body": "", 
-    "_head": "0100960096000c00", 
-    "amount": 3.75, 
-    "unabsorbed": 0.3, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "8602341611"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 0, 
-    "_description": "BolusWizard 2017-08-22T20:02:06 head[2], body[15] op[0x5b]", 
-    "timestamp": "2017-08-22T20:02:06-07:00", 
-    "_body": "3c5000a05a640000960000000096b4", 
-    "carb_input": 60, 
-    "bg_target_high": 180, 
-    "sensitivity": 90, 
-    "carb_ratio": 16.0, 
-    "food_estimate": 3.75, 
-    "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": 0.0, 
-    "bg_target_low": 100, 
-    "_head": "5b00", 
-    "bolus_estimate": 3.75, 
-    "_date": "8602141611"
   }
 ]
