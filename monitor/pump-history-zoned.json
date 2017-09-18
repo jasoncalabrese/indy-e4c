@@ -1,6 +1,25 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2017-09-18T02:43:33 head[2], body[0] op[0x16]", 
+    "timestamp": "2017-09-18T02:43:33-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "a16b025211"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2017-09-18T02:43:33 head[2], body[1] op[0x33]", 
+    "timestamp": "2017-09-18T02:43:33-07:00", 
+    "_body": "00", 
+    "_head": "332d", 
+    "rate": 1.125, 
+    "_date": "a16b025211"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2017-09-18T02:28:48 head[2], body[0] op[0x16]", 
     "timestamp": "2017-09-18T02:28:48-07:00", 
     "_body": "", 
@@ -1106,124 +1125,5 @@
     "_head": "3326", 
     "rate": 0.95, 
     "_date": "b479145111"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2017-09-17T20:38:03 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-09-17T20:38:03-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "8366145111"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-09-17T20:38:03 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-09-17T20:38:03-07:00", 
-    "_body": "00", 
-    "_head": "3326", 
-    "rate": 0.95, 
-    "_date": "8366145111"
-  }, 
-  {
-    "_type": "Bolus", 
-    "_description": "Bolus 2017-09-17T20:32:02 head[8], body[0] op[0x01]", 
-    "timestamp": "2017-09-17T20:32:02-07:00", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[17], body[0] op[0x5c]", 
-        "_body": "", 
-        "_head": "5c110c4cc024d8c0188cd08c96d008b4d0", 
-        "data": [
-          {
-            "amount": 0.3, 
-            "age": 76
-          }, 
-          {
-            "amount": 0.9, 
-            "age": 216
-          }, 
-          {
-            "amount": 0.6, 
-            "age": 396
-          }, 
-          {
-            "amount": 3.5, 
-            "age": 406
-          }, 
-          {
-            "amount": 0.2, 
-            "age": 436
-          }
-        ], 
-        "_date": ""
-      }
-    ], 
-    "programmed": 2.0, 
-    "duration": 0, 
-    "amount": 2.0, 
-    "unabsorbed": 0.2, 
-    "_head": "0100500050000800", 
-    "type": "normal", 
-    "_date": "8260341111"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 70, 
-    "_description": "BolusWizard 2017-09-17T20:32:01 head[2], body[15] op[0x5b]", 
-    "timestamp": "2017-09-17T20:32:01-07:00", 
-    "_body": "325000a05a64f2007cf80008006eb4", 
-    "carb_input": 50, 
-    "bg_target_high": 180, 
-    "sensitivity": 90, 
-    "carb_ratio": 16.0, 
-    "food_estimate": 3.1, 
-    "unabsorbed_insulin_total": 0.2, 
-    "correction_estimate": 50.85, 
-    "bg_target_low": 100, 
-    "_head": "5b46", 
-    "bolus_estimate": 2.75, 
-    "_date": "8160141111"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2017-09-17T20:31:01 head[2], body[0] op[0x16]", 
-    "timestamp": "2017-09-17T20:31:01-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "815f145111"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2017-09-17T20:31:01 head[2], body[1] op[0x33]", 
-    "timestamp": "2017-09-17T20:31:01-07:00", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "815f145111"
-  }, 
-  {
-    "_type": "BGReceived", 
-    "_description": "BGReceived 2017-09-17T20:29:13 head[2], body[3] op[0x3f]", 
-    "timestamp": "2017-09-17T20:29:13-07:00", 
-    "_body": "c23647", 
-    "_head": "3f08", 
-    "amount": 70, 
-    "link": "c23647", 
-    "_date": "8d5dd47111"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2017-09-17T20:29:13 head[2], body[0] op[0x0a]", 
-    "timestamp": "2017-09-17T20:29:13-07:00", 
-    "_body": "", 
-    "_head": "0a46", 
-    "amount": 70, 
-    "_date": "8d5d347111"
   }
 ]
