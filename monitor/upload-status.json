@@ -7,29 +7,43 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-09-21T09:47:14.000Z", 
+      "timestamp": "2017-09-21T09:52:30.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 93.35, 
-    "clock": "2017-09-21T02:48:10-07:00"
+    "reservoir": 93.275, 
+    "clock": "2017-09-21T02:53:05-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 85, 
+      "bg": 90, 
       "temp": "absolute", 
-      "snoozeBG": 109, 
-      "timestamp": "2017-09-21T09:48:51.000Z", 
+      "snoozeBG": 119, 
+      "timestamp": "2017-09-21T09:54:59.000Z", 
+      "rate": 1.25, 
+      "reason": "COB: 0, Dev: -2, BGI: 1.53, ISF: 90, Target: 100; Eventual BG 119 >= 100, temp 0.8<1.25U/hr", 
+      "COB": 0, 
+      "eventualBG": 119, 
+      "duration": 30, 
+      "tick": "+2", 
+      "IOB": -0.348
+    }, 
+    "iob": {
+      "netbasalinsulin": -0.9, 
+      "timestamp": "2017-09-21T09:53:05.000Z", 
+      "activity": -0.0034, 
+      "basaliob": -0.348, 
+      "hightempinsulin": 0.25, 
+      "bolussnooze": 0, 
+      "iob": -0.348
+    }, 
+    "enacted": {
+      "bg": 90, 
+      "temp": "absolute", 
+      "snoozeBG": 119, 
+      "recieved": true, 
       "predBGs": {
         "IOB": [
-          85, 
-          85, 
-          85, 
-          86, 
-          86, 
-          87, 
-          88, 
-          89, 
           90, 
           91, 
           92, 
@@ -38,50 +52,37 @@
           96, 
           98, 
           99, 
-          100, 
           101, 
           102, 
-          103, 
           104, 
           105, 
           106, 
-          107, 
           108, 
           109, 
-          109, 
           110, 
-          110, 
-          111
+          111, 
+          112, 
+          113, 
+          115, 
+          115, 
+          116, 
+          117, 
+          118, 
+          119, 
+          119, 
+          120, 
+          120, 
+          121
         ]
       }, 
-      "reason": "COB: 0, Dev: -9, BGI: 1.58, ISF: 90, Target: 100; Eventual BG 109 > 100 but Min. Delta 0.03 < Exp. Delta 1.1; setting current basal of 0.825 as temp, but 24m left and 0.8 ~ req 0.825U/hr: no action required", 
+      "reason": "COB: 0, Dev: -2, BGI: 1.53, ISF: 90, Target: 100; Eventual BG 119 >= 100, temp 0.8<1.25U/hr", 
+      "rate": 1.25, 
       "COB": 0, 
-      "eventualBG": 109, 
-      "tick": "+3", 
-      "IOB": -0.365
-    }, 
-    "iob": {
-      "netbasalinsulin": -0.9, 
-      "timestamp": "2017-09-21T09:48:10.000Z", 
-      "activity": -0.0035, 
-      "basaliob": -0.365, 
-      "hightempinsulin": 0.25, 
-      "bolussnooze": 0, 
-      "iob": -0.365
-    }, 
-    "enacted": {
-      "bg": 82, 
-      "temp": "absolute", 
-      "snoozeBG": 103, 
-      "recieved": true, 
-      "reason": "COB: 0, Dev: -14, BGI: 1.71, ISF: 90, Target: 100; Eventual BG 103 > 100 but Min. Delta -0.66 < Exp. Delta 1.5; setting current basal of 0.825 as temp. Setting neutral temp basal of 0.825U/hr", 
-      "rate": 0.8, 
-      "COB": 0, 
-      "eventualBG": 103, 
-      "timestamp": "2017-09-21T09:41:36.000Z", 
+      "eventualBG": 119, 
+      "timestamp": "2017-09-21T09:55:20.000Z", 
       "duration": 30, 
-      "tick": "+1", 
-      "IOB": -0.392
+      "tick": "+2", 
+      "IOB": -0.348
     }
   }, 
   "mmtune": {
@@ -89,41 +90,41 @@
       [
         "916.564", 
         5, 
-        -75
+        -74
       ], 
       [
         "916.588", 
         5, 
-        -72
+        -71
       ], 
       [
         "916.612", 
         5, 
-        -71
+        -68
       ], 
       [
         "916.636", 
         5, 
-        -71
+        -68
       ], 
       [
         "916.660", 
         5, 
-        -71
+        -68
       ], 
       [
         "916.684", 
         5, 
-        -72
+        -73
       ], 
       [
         "916.708", 
-        5, 
-        -82
+        1, 
+        -96
       ]
     ], 
     "setFreq": 916.66, 
-    "timestamp": "2017-09-21T09:46:52.000Z", 
+    "timestamp": "2017-09-21T09:51:46.000Z", 
     "usedDefault": false
   }
 }
