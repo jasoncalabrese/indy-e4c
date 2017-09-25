@@ -7,75 +7,70 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-09-25T07:23:40.000Z", 
+      "timestamp": "2017-09-25T07:33:16.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 61.275, 
-    "clock": "2017-09-25T00:24:11-07:00"
+    "reservoir": 60.975, 
+    "clock": "2017-09-25T00:34:13-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 255, 
+      "bg": 244, 
       "temp": "absolute", 
-      "snoozeBG": 215, 
-      "timestamp": "2017-09-25T07:25:07.000Z", 
+      "snoozeBG": 131, 
+      "timestamp": "2017-09-25T07:34:30.000Z", 
       "predBGs": {
         "IOB": [
-          255, 
-          258, 
-          259, 
-          258, 
-          256, 
-          252, 
-          247, 
-          241, 
-          233, 
-          225, 
-          215, 
-          205, 
-          193, 
-          181, 
-          170, 
-          159, 
-          148, 
-          138, 
-          129, 
-          120, 
-          112, 
-          105, 
-          99, 
-          93, 
+          244, 
+          236, 
+          228, 
+          220, 
+          210, 
+          201, 
+          192, 
+          183, 
+          173, 
+          164, 
+          154, 
+          144, 
+          134, 
+          125, 
+          116, 
+          108, 
+          100, 
+          94, 
           88, 
-          83, 
-          80, 
-          76, 
+          82, 
+          77, 
           73, 
           70, 
-          68, 
-          66, 
+          67, 
           64, 
-          63, 
           62, 
-          61, 
-          61, 
-          60
+          60, 
+          58, 
+          57, 
+          56, 
+          55, 
+          54, 
+          53
         ]
       }, 
-      "reason": "COB: 0, Dev: 107, BGI: -13.86, ISF: 90, Target: 80; Eventual BG 141 >= 80, temp 2.9 >~ req 2.5U/hr", 
+      "reason": "COB: 0, Dev: 42, BGI: -13.99, ISF: 90, Target: 80; Eventual BG 75 < 80, bolus snooze: eventual BG range 75-131; setting current basal of 1.15 as temp, but 26m left and 1.35 ~ req 1.15U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 141, 
-      "tick": "+4", 
-      "IOB": 2.458
+      "eventualBG": 75, 
+      "tick": -7, 
+      "IOB": 2.347
     }, 
     "iob": {
       "netbasalinsulin": 4.1, 
-      "timestamp": "2017-09-25T07:24:11.000Z", 
-      "activity": 0.0308, 
-      "basaliob": 1.522, 
+      "timestamp": "2017-09-25T07:34:13.000Z", 
+      "activity": 0.0311, 
+      "basaliob": 1.484, 
       "hightempinsulin": 4.1, 
-      "bolussnooze": 0.551, 
-      "iob": 2.458
+      "bolussnooze": 0.415, 
+      "iob": 2.347
     }, 
     "enacted": {
       "bg": 241, 
@@ -95,38 +90,48 @@
   "mmtune": {
     "scanDetails": [
       [
+        "916.492", 
+        1, 
+        -92
+      ], 
+      [
+        "916.540", 
+        2, 
+        -97
+      ], 
+      [
         "916.564", 
-        5, 
-        -88
+        3, 
+        -92
       ], 
       [
         "916.588", 
-        5, 
-        -86
+        4, 
+        -88
       ], 
       [
         "916.612", 
-        5, 
-        -85
+        1, 
+        -97
       ], 
       [
         "916.636", 
-        5, 
-        -85
+        3, 
+        -91
       ], 
       [
         "916.660", 
-        5, 
-        -86
+        2, 
+        -94
       ], 
       [
         "916.684", 
-        5, 
-        -87
+        2, 
+        -95
       ]
     ], 
-    "setFreq": 916.636, 
-    "timestamp": "2017-09-25T07:22:51.000Z", 
+    "setFreq": 916.588, 
+    "timestamp": "2017-09-25T07:32:55.000Z", 
     "usedDefault": false
   }
 }
