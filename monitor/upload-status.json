@@ -7,66 +7,67 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-10-05T09:25:28.000Z", 
+      "timestamp": "2017-10-05T09:29:03.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 59.775, 
-    "clock": "2017-10-05T02:26:29-07:00"
+    "reservoir": 59.725, 
+    "clock": "2017-10-05T02:30:04-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 110, 
+      "bg": 111, 
       "temp": "absolute", 
-      "snoozeBG": 101, 
-      "timestamp": "2017-10-05T09:26:42.000Z", 
-      "predBGs": {
-        "IOB": [
-          110, 
-          109, 
-          108, 
-          107, 
-          106, 
-          105, 
-          104, 
-          104, 
-          103, 
-          102, 
-          102, 
-          101, 
-          101, 
-          101, 
-          100
-        ]
-      }, 
-      "reason": "COB: 0, Dev: 0, BGI: -1.12, ISF: 90, Target: 100; Eventual BG 101 >= 100, 21m@0.000 = 0.000 > req 0+20%. Setting temp basal of 0.825U/hr, but 21m left and 0.825 ~ req 0.825U/hr: no action required", 
+      "snoozeBG": 105, 
+      "timestamp": "2017-10-05T09:30:20.000Z", 
+      "rate": 0.875, 
+      "reason": "COB: 0, Dev: 2, BGI: -1.08, ISF: 90, Target: 100; Eventual BG 105 >= 100, temp 0.825<0.875U/hr", 
       "COB": 0, 
-      "eventualBG": 101, 
-      "tick": "+0", 
-      "IOB": 0.098
+      "eventualBG": 105, 
+      "duration": 30, 
+      "tick": "+1", 
+      "IOB": 0.09
     }, 
     "iob": {
       "netbasalinsulin": 0.25, 
-      "timestamp": "2017-10-05T09:26:29.000Z", 
-      "activity": 0.0025, 
-      "basaliob": 0.098, 
+      "timestamp": "2017-10-05T09:30:04.000Z", 
+      "activity": 0.0024, 
+      "basaliob": 0.09, 
       "hightempinsulin": 0.35, 
       "bolussnooze": 0, 
-      "iob": 0.098
+      "iob": 0.09
     }, 
     "enacted": {
       "bg": 111, 
       "temp": "absolute", 
-      "snoozeBG": 101, 
+      "snoozeBG": 105, 
       "recieved": true, 
-      "reason": "COB: 0, Dev: -3, BGI: -1.22, ISF: 90, Target: 100; Eventual BG 101 > 100 but Min. Delta -2.00 < Exp. Delta -1.3; setting current basal of 0.825 as temp. Setting neutral temp basal of 0.825U/hr", 
-      "rate": 0.8, 
+      "predBGs": {
+        "IOB": [
+          111, 
+          110, 
+          110, 
+          109, 
+          108, 
+          108, 
+          107, 
+          107, 
+          106, 
+          106, 
+          105, 
+          105, 
+          105, 
+          104
+        ]
+      }, 
+      "reason": "COB: 0, Dev: 2, BGI: -1.08, ISF: 90, Target: 100; Eventual BG 105 >= 100, temp 0.825<0.875U/hr", 
+      "rate": 0.875, 
       "COB": 0, 
-      "eventualBG": 101, 
-      "timestamp": "2017-10-05T09:15:39.000Z", 
+      "eventualBG": 105, 
+      "timestamp": "2017-10-05T09:30:58.000Z", 
       "duration": 30, 
-      "tick": -2, 
-      "IOB": 0.081
+      "tick": "+1", 
+      "IOB": 0.09
     }
   }, 
   "mmtune": {
@@ -79,17 +80,17 @@
       [
         "916.564", 
         5, 
-        -80
+        -75
       ], 
       [
         "916.588", 
-        5, 
+        4, 
         -79
       ], 
       [
         "916.612", 
         5, 
-        -79
+        -78
       ], 
       [
         "916.636", 
@@ -99,16 +100,16 @@
       [
         "916.660", 
         5, 
-        -80
+        -79
       ], 
       [
         "916.684", 
         5, 
-        -83
+        -82
       ]
     ], 
-    "setFreq": 916.636, 
-    "timestamp": "2017-10-05T09:25:08.000Z", 
+    "setFreq": 916.564, 
+    "timestamp": "2017-10-05T09:28:39.000Z", 
     "usedDefault": false
   }
 }
