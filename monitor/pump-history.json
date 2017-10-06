@@ -1,5 +1,24 @@
 [
   {
+    "_type": "BGReceived", 
+    "link": "c23647", 
+    "_description": "BGReceived 2017-10-06T02:34:30 head[2], body[3] op[0x3f]", 
+    "timestamp": "2017-10-06T02:34:30", 
+    "_body": "c23647", 
+    "_head": "3f08", 
+    "amount": 69, 
+    "_date": "9ea2a26611"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2017-10-06T02:34:30 head[2], body[0] op[0x0a]", 
+    "timestamp": "2017-10-06T02:34:30", 
+    "_body": "", 
+    "_head": "0a45", 
+    "amount": 69, 
+    "_date": "9ea2226611"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2017-10-06T02:31:09 head[2], body[0] op[0x16]", 
@@ -738,51 +757,5 @@
     "_head": "3326", 
     "rate": 0.95, 
     "_date": "92b2144511"
-  }, 
-  {
-    "programmed": 3.0, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2017-10-05T20:33:48 head[8], body[0] op[0x01]", 
-    "timestamp": "2017-10-05T20:33:48", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
-        "data": [
-          {
-            "amount": 2.35, 
-            "age": 477
-          }
-        ], 
-        "_body": "", 
-        "_head": "5c055eddd0", 
-        "_date": ""
-      }
-    ], 
-    "_head": "0100780078000000", 
-    "amount": 3.0, 
-    "unabsorbed": 0.0, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "b0a1340511"
-  }, 
-  {
-    "_type": "BolusWizard", 
-    "bg": 0, 
-    "bg_target_high": 180, 
-    "_description": "BolusWizard 2017-10-05T20:33:48 head[2], body[15] op[0x5b]", 
-    "timestamp": "2017-10-05T20:33:48", 
-    "_body": "375000a05a640000880000000088b4", 
-    "_head": "5b00", 
-    "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": 0.0, 
-    "_date": "b0a1140511", 
-    "bolus_estimate": 3.4, 
-    "bg_target_low": 100, 
-    "carb_ratio": 16.0, 
-    "food_estimate": 3.4, 
-    "carb_input": 55, 
-    "sensitivity": 90
   }
 ]
