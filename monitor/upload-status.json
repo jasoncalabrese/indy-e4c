@@ -7,122 +7,116 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2017-10-15T08:21:29.000Z", 
+      "timestamp": "2017-10-15T08:24:16.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 96.75, 
-    "clock": "2017-10-15T01:22:33-07:00"
+    "reservoir": 96.7, 
+    "clock": "2017-10-15T01:25:20-07:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 96, 
+      "bg": 95, 
       "temp": "absolute", 
-      "snoozeBG": 101, 
-      "timestamp": "2017-10-15T08:22:40.000Z", 
+      "snoozeBG": 102, 
+      "timestamp": "2017-10-15T08:25:26.000Z", 
+      "rate": 1.05, 
+      "reason": "COB: 0, Dev: -13, BGI: 0.63, ISF: 90, Target: 100; Eventual BG 102 > 100 but Min. Delta -1.50 < Exp. Delta 0.5; setting current basal of 1.05 as temp. Setting neutral temp basal of 1.05U/hr", 
+      "COB": 0, 
+      "eventualBG": 102, 
+      "duration": 30, 
+      "tick": -1, 
+      "IOB": -0.22
+    }, 
+    "iob": {
+      "netbasalinsulin": 0.2, 
+      "timestamp": "2017-10-15T08:25:20.000Z", 
+      "activity": -0.0014, 
+      "basaliob": -0.22, 
+      "hightempinsulin": 0.9, 
+      "bolussnooze": 0, 
+      "iob": -0.22
+    }, 
+    "enacted": {
+      "bg": 95, 
+      "temp": "absolute", 
+      "snoozeBG": 102, 
+      "recieved": true, 
       "predBGs": {
         "IOB": [
-          96, 
+          95, 
           94, 
           93, 
           92, 
-          91, 
-          91, 
-          91, 
           92, 
           92, 
           93, 
+          94, 
           94, 
           95, 
           96, 
           97, 
           98, 
           99, 
-          99, 
           100, 
           101, 
           101, 
           102, 
-          102, 
-          102, 
           103, 
           103, 
-          103, 
-          103, 
-          103, 
-          102
+          104
         ]
       }, 
-      "reason": "COB: 0, Dev: -15, BGI: 0.5, ISF: 90, Target: 100; Eventual BG 101 > 100 but Min. Delta -2.06 < Exp. Delta 0.4, temp 1.05 ~ req 1.05U/hr", 
-      "COB": 0, 
-      "eventualBG": 101, 
-      "tick": -2, 
-      "IOB": -0.224
-    }, 
-    "iob": {
-      "netbasalinsulin": 0.2, 
-      "timestamp": "2017-10-15T08:22:33.000Z", 
-      "activity": -0.0011, 
-      "basaliob": -0.224, 
-      "hightempinsulin": 0.9, 
-      "bolussnooze": 0, 
-      "iob": -0.224
-    }, 
-    "enacted": {
-      "bg": 101, 
-      "temp": "absolute", 
-      "snoozeBG": 112, 
-      "recieved": true, 
-      "reason": "COB: 0, Dev: -5, BGI: -0.31, ISF: 90, Target: 100; Eventual BG 112 > 100 but Min. Delta -2.00 < Exp. Delta -1; setting current basal of 1.05 as temp. Setting neutral temp basal of 1.05U/hr", 
+      "reason": "COB: 0, Dev: -13, BGI: 0.63, ISF: 90, Target: 100; Eventual BG 102 > 100 but Min. Delta -1.50 < Exp. Delta 0.5; setting current basal of 1.05 as temp. Setting neutral temp basal of 1.05U/hr", 
       "rate": 1.05, 
       "COB": 0, 
-      "eventualBG": 112, 
-      "timestamp": "2017-10-15T08:07:59.000Z", 
+      "eventualBG": 102, 
+      "timestamp": "2017-10-15T08:25:40.000Z", 
       "duration": 30, 
-      "tick": -2, 
-      "IOB": -0.181
+      "tick": -1, 
+      "IOB": -0.22
     }
   }, 
   "mmtune": {
     "scanDetails": [
       [
+        "916.468", 
+        4, 
+        -95
+      ], 
+      [
+        "916.492", 
+        1, 
+        -98
+      ], 
+      [
         "916.564", 
         5, 
-        -77
+        -80
       ], 
       [
         "916.588", 
         5, 
-        -74
+        -72
       ], 
       [
         "916.612", 
         5, 
-        -73
+        -71
       ], 
       [
         "916.636", 
         5, 
-        -74
+        -71
       ], 
       [
         "916.660", 
-        5, 
-        -74
-      ], 
-      [
-        "916.684", 
-        5, 
-        -76
-      ], 
-      [
-        "916.708", 
-        5, 
-        -87
+        3, 
+        -82
       ]
     ], 
-    "setFreq": 916.612, 
-    "timestamp": "2017-10-15T08:21:09.000Z", 
+    "setFreq": 916.636, 
+    "timestamp": "2017-10-15T08:23:55.000Z", 
     "usedDefault": false
   }
 }
